@@ -123,3 +123,38 @@
 // x -= 1; //11
 // console.log(x);
 
+// Array
+
+// var array = [10,20,30,40,50];
+// array[5] = 60;
+// console.table(array);
+
+// new => 
+var cities = new Array();
+cities[0] = "Delhi";
+cities[1] = "Bangalore";
+cities[2] = "Mumbai";
+cities[3] = "Chennai";
+// console.log(cities);
+
+// Normal for loop
+// for(var i = 0; i < cities.length; i++){
+//     console.log(cities[i]);
+// }
+
+//ForEach loop
+// cities.forEach((city) => {
+//     console.log(city);
+// })
+
+//for in loop
+// Its enumeration based loop that iterate over the index
+// for(var index in cities){
+//     console.log(cities[index]);
+// }
+
+// for of loop
+// It is iterate over the value
+// for(var city of cities){
+//     console.log(city);
+// }
