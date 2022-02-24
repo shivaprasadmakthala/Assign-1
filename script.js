@@ -1,3 +1,93 @@
+//Day 2
+// console.log("Hello");
+// document.write("hi Guvi!");
+
+// Http=>https=>Hyper Text transfer protocol SecureData sent is an encrypted 
+// dataSSL=>Secure socket layer or TLS(Transport Layer Security)
+// Netscape100-500Status Details1XX informational2XX Successfully received3XX Redirected4XX Client error5XX Server 
+// Error200=>OK201=>Ok Created300=>Moved permanently301=>Moved to the new url400=>Bad 
+// Request401=>Unathorized403=>Forbidden404=>Not FoundURL is not recogized or resource location doesnt 
+// exist500=>Internal Server ErrorHTTP2=>Advancement or major version to http 1.0Responding with more and more dataFaster ,reliable and 
+// secureJavascript:=>ECMA=>Node.jsWhere does the js code run?javascript Browser 
+// EngineMozila =>Spider MonkeySafari=> javascript coreIE and edge =>chakrachrome=>v8Brandon 
+// Eich=>LivescriptNetscape and Sun 
+// javaMicrosoft=>1996->Jscript=>ECMA=>1997 with version-1Pre-requisites to use html and js1.Code 
+// Editor=>Visual Studio codeAtomBracketsDreamweaverBrowser=>1.chrome,mo
+
+// let name = "Lavish"; // string literal
+// console.log(name);
+// let num = 100; // number literal
+// console.log(num);
+// let bool = true;// boolean literal
+// console.log(bool);
+
+// var firstname = "John",
+// lastname = "Doe", 
+// age = 50;
+// console.log("Iam" +" " + firstname +" "+ lastname +" "+ "having age" +" " + age );
+// //string Interpolation concept
+// // Template Literal concept
+// //Customised string
+// //backticks symbol = `${variable}`
+// console.log(`Iam ${firstname} ${lastname} having age  ${age}`);
+
+// Rules for naming convention
+// 1. variable name must start with a letter , _ or $
+// ex: var name , var _name , var $_name
+// 2. Name can have digit or underscore or dollar special characters
+// var $num_1
+
+// var .num1 or 1num 
+// cannot contain spaces 
+// var num sum;
+//  A variable name are case sensitive
+// var firstname = "Lavish";
+// var Firstname = "Lavish"; 
+// console.log(firstname + " " + Firstname);
+// console.log(`${firstname} ${Firstname}`);
+// => variable name cannot be a js keyword or reserved word 
+// var var , var switch, var for
+
+// var num = 100;
+// variable name must be meaningful name and should not be too long 
+
+// var firstname = "Lavish";
+// firstname = "Sri Ram";
+// console.log(firstname);
+
+//variable Scoping
+// 1. Global variable 
+// 2. local variable
+// var num = 10;
+// {
+//     var num = 20;
+// }
+// console.log(num);
+// let num = 10;
+// {
+//     let num = 20;
+// }
+// console.log(num);
+
+// ES-6 =>
+// let and const => Modern (block scope)
+// ({
+
+// })
+// var => Older way of using 
+// Functional scope
+// const => 
+//read only variable name
+
+// const a = 10;
+// const a = 29;
+// console.log(a);
+// let a = 10;
+// const a = 20;
+// console.log(a);//Day - 2 End
+
+
+
 // console.log("Welcome to guvi jjh batch ")
 // console.log(2+2)
 // var firstName = "Shiva";
@@ -130,11 +220,11 @@
 // console.table(array);
 
 // new => 
-var cities = new Array();
-cities[0] = "Delhi";
-cities[1] = "Bangalore";
-cities[2] = "Mumbai";
-cities[3] = "Chennai";
+// var cities = new Array();
+// cities[0] = "Delhi";
+// cities[1] = "Bangalore";
+// cities[2] = "Mumbai";
+// cities[3] = "Chennai";
 // console.log(cities);
 
 // Normal for loop
