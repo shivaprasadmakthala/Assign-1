@@ -276,3 +276,93 @@
 // let car = new Car("2020", 4);
 // car.getModel();
 
+
+// Day - 9
+// class Rectangle {
+//     constructor(length, breadth){
+//         this.length = length;
+//         this.breadth = breadth;
+//     }
+
+//     // //logic to get area of rectangle
+//     getArea(){
+//         return this.length*this.breadth;
+//     }
+// }
+// class Square extends Rectangle {
+//     constructor(length){
+//         super(length, length);
+//     }
+
+//     //get perimeter
+//     getPerimeter(){
+//         return 2*this.length+this.breadth;
+//     }
+// }
+
+// // create an object for rectangle 
+// let recobj = new Rectangle(10, 20);
+// console.log(recobj.getArea());
+
+// //create an object for square
+// let squareobj = new Square(10);
+// console.log(squareobj.getArea());
+// console.log(squareobj.getPerimeter());
+
+//DRY -> Dont Repeat Yourself
+
+//polymorphism 
+// poly+Morphism
+//Inherttance
+// same method which can be used on different objects
+//drive()
+
+// class Car{
+//     drive(){
+//         console.log("This is a slow Running Method")
+//     }
+// }
+// class MotorCycle extends Car{
+//     drive(){
+//        console.log("This is a Fast Running Method") 
+//     }
+// }
+
+// //create an object for car
+// let car1 = new Car();
+// car1.drive();
+
+// //create an object for motorcycle
+// let motorbike = new MotorCycle();
+// motorbike.drive();
+
+// Encapsulation=>
+// ATM+Netbanking=>
+// Brother,Sister,Father,Wife
+// Hiding the data from the user
+// The Wrapping or binding the Data into a single unit 
+// getter=>to get or read the values from the object
+// setter=>to set or write the values 
+
+// class Car{
+//     setAttribute(model,year){
+//         this.model=model;
+//         this.year=year;
+//     }
+
+//    getAttribute(model,year){
+//          return this.model+" "+this.year;
+//     }
+// }
+
+
+// let car1=new Car();
+// car1.setAttribute("Nexon",2018);
+// console.log(car1.getAttribute());
+
+
+
+
+
+
+
